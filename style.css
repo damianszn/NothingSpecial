@@ -1,0 +1,11 @@
+body{
+    font-family: 'Cutive Mono', monospace;
+}
+
+a{
+    color: gray;
+}
+
+.list-group-item{
+    font-size: 2.5vh;
+}
