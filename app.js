@@ -18,7 +18,7 @@ function capitalizeFirstLetter(string) {
 }
 function createButtonDiv(thingName){ //creating div & refresh button 
   card = document.createElement('div');
-  card.classList = "card w-75 p-3";
+  card.classList = "card w-75 p-1";
   card.style = "margin-left:13%";
   body.appendChild(card);
   
