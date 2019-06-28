@@ -153,7 +153,7 @@ function thing(thingName){
       output(parsedJson, thingName);
       return parsedJson;
   })
-  } catch($e){
+  } catch{
     thing(thingName);
   }
 }
