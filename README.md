@@ -1,7 +1,7 @@
 # Nothing Special
-is a small website i did to remind myself of Javascript !
+is a small website i did in a few hours to remind myself of Javascript.
 
-I use different API's to output random shows, jokes and animals (for now) :
+I used different API's to output random shows, jokes and animals (for now) :
 
 ```
 let things = {
@@ -12,3 +12,4 @@ let things = {
     dog: `https://random.dog/woof.json`
 };
 ```
+27/06/2019
