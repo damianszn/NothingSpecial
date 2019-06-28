@@ -12,4 +12,4 @@ let things = {
     dog: `https://random.dog/woof.json`
 };
 ```
-27/06/2019
+
