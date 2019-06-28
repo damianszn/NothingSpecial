@@ -18,8 +18,8 @@ function capitalizeFirstLetter(string) {
 }
 function createButtonDiv(thingName){ //creating div & refresh button 
   card = document.createElement('div');
-  card.classList = "card w-50 p-3";
-  card.style = "margin-left:25%";
+  card.classList = "card w-75 p-3";
+  card.style = "margin-left:13%";
   body.appendChild(card);
   
   button = document.createElement('button');
@@ -82,7 +82,7 @@ function outputAnimal(thing, thingName){
   if(thingName == 'dog'){thing = thing.url;} else{thing = thing.file};
   if(thing.substr(thing.length - 4) != '.mp4' && thing.substr(thing.length - 5) != '.webm'){
     return `<div class="container">
-      <img src=${thing} class="card-img-top w-75 p-3" style="margin-left:13%">
+      <img src=${thing} class="card-img-top p-3">
   </div>`;
   } else {
     return `<div class="embed-responsive embed-responsive-16by9">
